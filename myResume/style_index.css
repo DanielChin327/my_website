@@ -1,6 +1,6 @@
 *{
   font-family: roboto, sans-serif;
-  background-color: rgb(255, 252, 235);
+  background-color: rgb(255, 254, 250);
 }
 
 .container{
@@ -8,8 +8,23 @@
   justify-content: center;
 }
 
+.header{
+  padding: 30px;
+}
+
+.greeting{
+  font-size: 150%;
+}
+
+.reason{
+  list-style-position: inside; /* Ensures the numbers are inside the list item and not to the far left*/
+  padding: 30px;
+}
+
 .hobbies{
   display: flex;
+  justify-content: center;
+  padding: 30px;
 }
 
 .hobby{
@@ -18,4 +33,8 @@
   border-radius:10px;
   border: 3px solid black;
   margin: 20px;
+}
+
+.navigate{
+  margin: 30px;
 }

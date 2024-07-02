@@ -1,9 +1,23 @@
 *{
   font-family: roboto, sans-serif;
-  background-color: rgb(255, 252, 235);
+  background-color: rgb(255, 254, 250);
 }
 
+.header{
+  padding: 20px;
+}
+
+.image{
+  padding: 50px;
+}
 .container{
   text-align: center;
   justify-content: center;
+}
+
+.article{
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 30px;
+  padding: 20px;
 }
