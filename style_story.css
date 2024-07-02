@@ -1,0 +1,9 @@
+*{
+  font-family: roboto, sans-serif;
+  background-color: rgb(255, 252, 235);
+}
+
+.container{
+  text-align: center;
+  justify-content: center;
+}

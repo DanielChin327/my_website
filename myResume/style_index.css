@@ -1,5 +1,6 @@
 *{
   font-family: roboto, sans-serif;
+  background-color: rgb(255, 252, 235);
 }
 
 .container{
@@ -16,4 +17,5 @@
   text-align:center;
   border-radius:10px;
   border: 3px solid black;
+  margin: 20px;
 }
