@@ -17,9 +17,10 @@
   font-size: 150%;
 }
 
-.reason{
+.blue-text{
   list-style-position: inside; /* Ensures the numbers are inside the list item and not to the far left*/
   padding: 30px;
+
 }
 
 .hobbies{
