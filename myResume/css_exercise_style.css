@@ -1,0 +1,32 @@
+
+/*Changes text inside h1 elements to green*/
+/*0-0-1*/
+h1 {
+	color:green;
+}
+/*Changes text inside elements with class="blue" to blue*/
+/*0-1-0*/
+.blue {
+color: blue;
+}
+/*Changes text inside elements with id="red" to color red*/
+/*1-0-0*/
+#red {
+	color: red;
+}
+
+/*Changes all text inside p elements to black*/
+/*0-0-1*/
+p {
+	color:black
+}
+/*Changes text inside span elements to purple*/
+/*0-0-1*/
+span {
+	color: purple
+}
+/*Changes text inside span elements that are INSIDE p elements to red*/
+/*0-0-2*/
+p span {
+  color: red
+}
