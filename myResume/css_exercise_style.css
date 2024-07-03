@@ -1,5 +1,6 @@
 body{
   text-align: center;
+  font-size: 1.3rem;
 }
 
 
@@ -22,7 +23,8 @@ color: blue;
 /*Changes all text inside p elements to black*/
 /*0-0-1*/
 p {
-	color:black
+	color:black;
+  font-size: 12px;
 }
 /*Changes text inside span elements to purple*/
 /*0-0-1*/
