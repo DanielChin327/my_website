@@ -3,6 +3,10 @@
   background-color: rgb(255, 254, 250);
 }
 
+body{
+  color:red;
+}
+
 .container{
   text-align: center;
   justify-content: center;
@@ -13,14 +17,25 @@
   padding: 30px;
 }
 
+.blue-text{
+  color:blue;
+}
+
+.red-text{
+  color:red;
+}
+
+#green-text{
+  color:green;
+}
+
 .greeting{
   font-size: 150%;
 }
 
-.blue-text{
+.reason{
   list-style-position: inside; /* Ensures the numbers are inside the list item and not to the far left*/
   padding: 30px;
-
 }
 
 .hobbies{

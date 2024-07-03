@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+
+body{
+  text-align: center;
+  font-size: 1.0rem;
+  font-family: "Six Caps", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-barcode-39-regular {
+  font-family: "Libre Barcode 39", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/*Changes text inside h1 elements to green*/
+/*0-0-1*/
+h1 {
+	color:green;
+}
+/*Changes text inside elements with class="blue" to blue*/
+/*0-1-0*/
+.blue {
+color: blue;
+}
+/*Changes text inside elements with id="red" to color red*/
+/*1-0-0*/
+#red {
+	color: red;
+}
+
+/*Changes all text inside p elements to black*/
+/*0-0-1*/
+p {
+	color:black;
+  font-size: 12px;
+}
+/*Changes text inside span elements to purple*/
+/*0-0-1*/
+span {
+	color: purple
+}
+/*Changes text inside span elements that are INSIDE p elements to red*/
+/*0-0-2*/
+p span {
+  color: red
+}
