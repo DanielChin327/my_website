@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+
 body{
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.0rem;
+  font-family: "Six Caps", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-barcode-39-regular {
+  font-family: "Libre Barcode 39", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
