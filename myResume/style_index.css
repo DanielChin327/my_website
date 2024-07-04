@@ -1,10 +1,26 @@
-*{
-  font-family: roboto, sans-serif;
-  background-color: rgb(255, 254, 250);
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+:root{
+  --color-blue: #4285F4;
+  --color-red: #EA4335;
+  --color-yellow: #FBBC05;
+  --color-green: #34A853;
 }
 
+
+*{
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  font-style: normal;
+}
+
+html{
+  background-color: #f8f9fa;
+}
 body{
   color:red;
+  background-color: #f8f9fa;
 }
 
 .container{
@@ -13,24 +29,42 @@ body{
 }
 
 .header{
-  font-size: 200%;
+  font-size: 100em;
   padding: 30px;
 }
 
-.blue-text{
-  color:blue;
+h1{
+  font-size: 3rem;
+  text-align: center;
 }
 
-.red-text{
-  color:red;
+.about-me-logo{
+  font-size: 7rem;
 }
 
-#green-text{
-  color:green;
+.blue-letter {
+  color: var(--color-blue);
+  margin: 0;
+}
+
+.red-letter {
+  color: var(--color-red);
+  margin: 0;
+}
+
+.yellow-letter {
+  color: var(--color-yellow);
+  margin: 0;
+}
+
+.green-letter {
+  color: var(--color-green);
+  margin: 0;
 }
 
 .greeting{
   font-size: 150%;
+
 }
 
 .reason{
@@ -38,6 +72,9 @@ body{
   padding: 30px;
 }
 
+.reason-list{
+  font-size: 1rem;
+}
 .hobbies{
   display: flex;
   justify-content: center;
