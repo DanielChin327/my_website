@@ -8,10 +8,7 @@ body{
   font-style: normal;
   text-align: center;
   background-color: antiquewhite;
-  background-image: url(/images/shinokubo.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+
 }
 
 .libre-barcode-39-regular {
@@ -20,12 +17,18 @@ body{
   font-style: normal;
 }
 
+h1{
+  justify-content: center;
+  width: 50%;
+  border: 1px black solid;
+
+  border-radius:3px;
+}
 
 /*Changes text inside h1 elements to green*/
 /*0-0-1*/
 h1:nth-of-type(1){
 	color:#34A853;
-  width: 50%;
 }
 
 
@@ -33,13 +36,12 @@ h1:nth-of-type(1){
 /*0-1-0*/
 .blue {
 color: rgb(33, 33, 207);
-
 }
 /*Changes text inside elements with id="red" to color red*/
 /*1-0-0*/
 #red {
 	color: rgb(222, 43, 43);
-  width: 150%;
+
 }
 
 /*Changes all text inside p elements to black*/
