@@ -26,9 +26,11 @@ html, body {
 
 .header{
   padding: 30px;
-  font-size: 4rem;
 }
 
+span{
+  font-size: 5rem;
+}
 
 .blue-letter {
   color: var(--color-blue);
@@ -52,7 +54,8 @@ html, body {
 
 
 .image{
-  padding: 40px;
+  padding: 0px;
+
 }
 
 .article{
@@ -63,6 +66,10 @@ html, body {
 }
 
 .navigates{
+  display: flex;
+  justify-content:space-evenly;
   text-align: left;
-  background-color: #e0e0e0
+  background-color: #ffffff;
+  border-bottom: 1px solid black;
+  margin:1px;
 }

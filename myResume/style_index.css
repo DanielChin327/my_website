@@ -13,10 +13,11 @@
   padding: 0;
   box-sizing: border-box;
   /* Ensures padding and border are included in element's total width and height */
+  background-color: #f8f9fa;
 }
 
 body {
-  background-color: rgb(248, 249, 250);
+  background-color: #f8f9fa;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -113,6 +114,10 @@ h1 {
 }
 
 .navigate{
+  display: flex;
+  justify-content: center;
   text-align: left;
-  background-color: #e0e0e0
+  background-color: #ffffff;
+  border-bottom: 1px solid black;
+  margin:1px;
 }
