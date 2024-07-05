@@ -26,6 +26,7 @@ html, body {
 
 .header{
   padding: 30px;
+  margin-top:30px;
 }
 
 span{
@@ -55,7 +56,7 @@ span{
 
 .image{
   padding: 0px;
-
+  margin: 0px;
 }
 
 .article{
@@ -72,4 +73,8 @@ span{
   background-color: #ffffff;
   border-bottom: 1px solid black;
   margin:1px;
+  position:fixed;
+  top: 0;
+  left:0;
+  right:0;
 }
