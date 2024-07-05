@@ -62,3 +62,8 @@ html, body {
   margin: 30px;
   padding: 20px;
 }
+
+.navigates{
+  text-align: left;
+  background-color: #e0e0e0
+}

@@ -7,6 +7,11 @@
   --color-green: #34A853;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   background-color: rgb(248, 249, 250);
@@ -16,17 +21,14 @@ body {
 
 .container {
   text-align: center;
-  justify-content: center;
 
 }
 
 .header {
-  font-size: 100em;
   padding: 30px;
 }
 
 h1 {
-  font-size: 3rem;
   text-align: center;
 }
 
@@ -58,22 +60,40 @@ h1 {
   font-size: 150%;
   display: flex;
   justify-content: center;
+  padding-bottom: 2%;
+}
+
+.information{
+  display:flex;
 }
 
 .reason {
-  list-style-position: inside;
-  /* Ensures the numbers are inside the list item and not to the far left*/
+  list-style-position: inside;/* Ensures the numbers are inside the list item and not to the far left*/
   padding: 30px;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin:2px;
 }
 
 .reason-list {
   font-size: 1rem;
+  text-align:left;
 }
 
+.hobby-info{
+  border: 3px solid black;
+  border-radius: 10px;
+  margin:2px;
+}
+
+.hobby-title{
+  margin:40px;
+
+}
 .hobbies {
-  display: flex;
-  text-align: center;
-  padding: 30px;
+  display:flex;
+  text-align: left;
+  padding: 15px;
   overflow: auto;
   box-sizing: border-box;
 }
@@ -84,6 +104,7 @@ h1 {
   margin: 20px;
   width: 30%;
   list-style: none;
+  text-align: center;
 }
 
 .hobby img {
@@ -91,6 +112,7 @@ h1 {
 
 }
 
-.navigate {
-  margin: 30px;
+.navigate{
+  text-align: left;
+  background-color: #e0e0e0
 }
