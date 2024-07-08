@@ -28,7 +28,8 @@
   background-color: white; /* Specific squares to be white */
 }
 
-.container div:nth-child(1){
+.container div:nth-child(1)
+{
   border-top-left-radius: 20px;
 }
 
