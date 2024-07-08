@@ -2,4 +2,25 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  white-space: nowrap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* img:nth-child(1),img:nth-child(2),img:nth-child(3) {
+  display:block;
+  float:left;
+} */
+
+img {
+  display: block;
+  float: left;
+}
+
+img:nth-child(4),img:nth-child(7){
+  clear:both;
+  float:left;
 }

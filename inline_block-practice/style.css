@@ -1,0 +1,41 @@
+.bts {
+    width: 225px;
+    height: 150px;
+}
+
+.img1 {
+    background-image: url(./images/00.webp);
+}
+.img2 {
+    background-image: url(./images/10.webp);
+}
+.img3 {
+    background-image: url(./images/20.webp);
+}
+.img4 {
+    background-image: url(./images/30.webp);
+}
+.img5 {
+    background-image: url(./images/01.webp);
+}
+.img6 {
+    background-image: url(./images/11.webp);
+}
+.img7 {
+    background-image: url(./images/21.webp);
+}
+.img8 {
+    background-image: url(./images/31.webp);
+}
+.img9 {
+    background-image: url(./images/02.webp);
+}
+.img10 {
+    background-image: url(./images/12.webp);
+}
+.img11 {
+    background-image: url(./images/22.webp);
+}
+.img12 {
+    background-image: url(./images/32.webp);
+}
