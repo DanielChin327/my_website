@@ -1,41 +1,58 @@
 .bts {
     width: 225px;
     height: 150px;
+    display: inline-block;
+}
+
+div{
+  font-size: 0;
 }
 
 .img1 {
     background-image: url(./images/00.webp);
+    display:inline-block;
 }
 .img2 {
     background-image: url(./images/10.webp);
+    display:inline-block;
 }
 .img3 {
     background-image: url(./images/20.webp);
+    display:inline-block;
 }
 .img4 {
     background-image: url(./images/30.webp);
+    display:inline-block;
 }
 .img5 {
     background-image: url(./images/01.webp);
+    display:inline-block;
 }
 .img6 {
     background-image: url(./images/11.webp);
+    display:inline-block;
 }
 .img7 {
     background-image: url(./images/21.webp);
+    display:inline-block;
 }
 .img8 {
     background-image: url(./images/31.webp);
+    display:inline-block;
 }
 .img9 {
     background-image: url(./images/02.webp);
+    display:inline-block;
 }
 .img10 {
     background-image: url(./images/12.webp);
+    display:inline-block;
 }
 .img11 {
     background-image: url(./images/22.webp);
+    display:inline-block;
 }
 .img12 {
     background-image: url(./images/32.webp);
+    display:inline-block;
 }
