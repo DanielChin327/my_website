@@ -1,47 +1,77 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.container {
-  width: 1200px;
-  height: 600px;
-  margin: auto;
+body {
   display: flex;
-  flex-wrap: wrap; /* Allow wrapping to create multiple rows */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: white;
 }
-
-.container > div {
-  width: 20%; /* Each div takes up 25% of the container's width */
-  height: 20%; /* Adjust height if necessary */
-
-  box-sizing: border-box;
-  background-color:#FF0000;
+.flag {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid #000;
 }
-
-.container > div:nth-child(8),
-.container > div:nth-child(12),
-.container > div:nth-child(13),
-.container > div:nth-child(14),
-.container > div:nth-child(18){
-  background-color: white; /* Specific squares to be white */
+.taegeuk {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+  margin-left: -50px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #c60c30 50%, #003478 50%);
+  border: 1px solid #000;
 }
-
-.container div:nth-child(1)
-{
-  border-top-left-radius: 20px;
+.taegeuk::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #003478;
+  border-radius: 50%;
+  border: 1px solid #000;
 }
-
-.container > div:nth-child(5){
-  border-top-right-radius: 20px;
+.taegeuk::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #c60c30;
+  border-radius: 50%;
+  border: 1px solid #000;
 }
-
-.container > div:nth-child(21){
-  border-bottom-left-radius: 20px;
+.trigrams {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
 }
-
-
-.container > div:nth-child(25){
-  border-bottom-right-radius: 20px;
+.trigram {
+  position: absolute;
+  width: 4px;
+  height: 20px;
+  background-color: #000;
 }
+.trigram-1 { top: 20px; left: 20px; }
+.trigram-2 { top: 20px; right: 20px; }
+.trigram-3 { bottom: 20px; left: 20px; }
+.trigram-4 { bottom: 20px; right: 20px; }
+.trigram-1 .line-1 { top: 0; }
+.trigram-1 .line-2 { top: 8px; }
+.trigram-1 .line-3 { top: 16px; }
+.trigram-2 .line-1 { top: 0; }
+.trigram-2 .line-2 { top: 8px; left: -8px; width: 12px; }
+.trigram-2 .line-3 { top: 16px; }
+.trigram-3 .line-1 { top: 0; left: -8px; width: 12px; }
+.trigram-3 .line-2 { top: 8px; }
+.trigram-3 .line-3 { top: 16px; left: -8px; width: 12px; }
+.trigram-4 .line-1 { top: 0; }
+.trigram-4 .line-2 { top: 8px; }
+.trigram-4 .line-3 { top: 16px; }

@@ -1,0 +1,92 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+
+.body{
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.container{
+  display:flex;
+  width:100%;
+  justify-content:space-between;
+  font-size:15px;
+}
+
+.column-one{
+  width:20%;
+}
+
+.column-two{
+  width: 50%;
+  height: 100%;
+  display:flex;
+  justify-content:flex-start;
+  flex-wrap:wrap
+}
+
+.coffee{
+  position: absolute;
+}
+
+.coffee-text{
+  position: relative;
+  bottom: 60px;
+}
+
+.beverage{
+  position: absolute;
+  left: 485px;
+}
+
+.beverage-text{
+  position: relative;
+  bottom: 50px;
+}
+
+.bagel{
+  position: absolute;
+  left: 730px;
+}
+
+.bagel-text{
+  position: relative;
+  bottom: 50px;
+}
+
+.dessert{
+  position: absolute;
+  left:485px;
+  top: 260px;
+}
+
+.dessert-text{
+  position: relative;
+  bottom:50px;
+}
+
+.gift{
+  position: absolute;
+  left: 970px;
+  top:260px;
+}
+
+.gift-item{
+  position:relative;
+  bottom: 50px;
+}
+
+
+.item{
+  text-align:center;
+}
+
+.brown{
+color:brown
+}
