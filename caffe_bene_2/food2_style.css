@@ -1,0 +1,48 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  justify-content:space-evenly
+}
+
+.column-one{
+  display: flex;
+  justify-content:flex-start
+}
+
+.column-two{
+  width:80%;
+  display: flex;
+  justify-content:flex-start;
+  flex-wrap: wrap
+}
+
+.top-row{
+  display: flex;
+  justify-content:flex-start;
+
+}
+
+.bot-row{
+  display:flex;
+  justify-content:flex-start;
+
+}
+
+.item{
+  text-align: center
+}
+
+
+.coffee{
+  position: absolute;
+}
+
+.coffee-text{
+  position: relative;
+  bottom: 60px;
+}
