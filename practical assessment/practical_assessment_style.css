@@ -126,5 +126,12 @@ header img {
 
 .author-link-icon{
   width: 100px;
+}
 
+.footer{
+  background-color:rgba(132, 201, 210, 0.788);
+}
+
+.tweet-list{
+  list-style: none;
 }
