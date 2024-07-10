@@ -51,7 +51,6 @@ header img {
 .main {
   background-color: gray;
   text-align: center;
-
   padding: 20px;
   width:100%;
   overflow:auto;
@@ -80,7 +79,7 @@ header img {
   justify-content: space-between;
   position: absolute;
   width: 100%;
-  bottom: 0px;
+  bottom: 0px; /*Sets absolute position to the bottom of the parent class which is coffee banner's position:relative*/
   align-content: center;
   padding-top: 15px;
   padding-left: 15px;
@@ -171,6 +170,11 @@ header img {
 .photo-drink-item{
   width:80px;
   padding-right:10px;
+}
+
+.photo-drink-list li{
+  width:40%;
+  height:40%;
 }
 
 .friends-lists{
