@@ -53,6 +53,7 @@ header img {
   text-align: center;
   height: 1000px;
   padding: 20px;
+  width:100%;
 }
 
 .main-banner {
@@ -108,12 +109,16 @@ header img {
 .article-text{
   text-align: left;
   font-size: 22px;
+  overflow:auto;
+  max-height:500px;
 }
 
 .aside{
   background-color:rgba(132, 201, 210, 0.788);
   width: 30%;
   padding: 20px;
+  overflow:auto;
+  max-height:600px;
 }
 
 .author-title{
@@ -140,17 +145,15 @@ header img {
   border: 25px;
 }
 
-.footer{
-  background-color:rgba(132, 201, 210, 0.788);
-  font-size:20px;
-}
-
 .tweet-list{
   list-style: none;
+  font-size: 16px;
 }
 
 
 .footer{
+  background-color:rgba(132, 201, 210, 0.788);
+  font-size:24px;
   display:flex;
   justify-content: space-around;
   height: 300px;
