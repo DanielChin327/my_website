@@ -7,9 +7,6 @@
   font-style: normal;
 }
 
-html {
-  height: 100%;
-}
 
 header {
   background-color: rgba(132, 201, 210, 0.788);
@@ -54,7 +51,7 @@ header img {
 .main {
   background-color: gray;
   text-align: center;
-  height: 1200px;
+  height: 1000px;
   padding: 20px;
 }
 
@@ -96,6 +93,7 @@ header img {
   display:flex;
   justify-content:space-between;
   padding: 20px;
+  font-size: 22px;
 }
 
 .article{
@@ -126,10 +124,12 @@ header img {
 
 .author-link-icon{
   width: 100px;
+  border: 25px;
 }
 
 .footer{
   background-color:rgba(132, 201, 210, 0.788);
+  font-size:20px;
 }
 
 .tweet-list{
@@ -140,14 +140,18 @@ header img {
   display:flex;
   justify-content: space-around;
   height: 200px;
+  padding-top:25px;
 }
 
 .photo-drink-list{
   display:flex;
   list-style:none;
+  justify-content: space-evenly;
 }
+
 .photo-drink-item{
-  width:50px;
+  width:80px;
+  padding-right:10px;
 }
 
 .friends-lists{
