@@ -1,0 +1,24 @@
+
+
+header{
+background-color:lightgray;
+width: 80%;
+display: flex;
+justify-content: space-between;
+font-size: 20px;
+height:1000px;
+}
+
+header img{
+  width: 150px;
+
+}
+
+
+
+main{
+  background-color: blue;
+  text-align: center;
+  width: 80%;
+  height: 50px;
+}
