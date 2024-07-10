@@ -135,3 +135,22 @@ header img {
 .tweet-list{
   list-style: none;
 }
+
+.footer{
+  display:flex;
+  justify-content: space-around;
+  height: 200px;
+}
+
+.photo-drink-list{
+  display:flex;
+  list-style:none;
+}
+.photo-drink-item{
+  width:50px;
+}
+
+.friends-lists{
+  display:flex;
+  justify-content:space-between
+}
