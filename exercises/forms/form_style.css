@@ -9,3 +9,7 @@
   min-width: 600px;
   margin: 50px auto;
 }
+
+:required{
+  background-color:red;
+}
