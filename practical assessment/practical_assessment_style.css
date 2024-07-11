@@ -109,7 +109,6 @@ header img {
 .article-text{
   text-align: left;
   font-size: 22px;
-
 }
 
 .aside{
@@ -156,19 +155,21 @@ header img {
   background-color:rgba(132, 201, 210, 0.788);
   font-size:24px;
   display:flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 300px;
   padding-top:25px;
+  overflow:auto;
 }
 
 .photo-drink-list{
   display:flex;
   list-style:none;
-  justify-content: space-evenly;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .photo-drink-item{
-  width:80px;
+  width:60%;
   padding-right:10px;
 }
 
