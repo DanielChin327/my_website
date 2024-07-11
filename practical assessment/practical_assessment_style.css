@@ -92,7 +92,7 @@ header img {
 
 .main-info{
   display:flex;
-  justify-content:space-between;
+  justify-content:space-around;
   padding: 20px;
 }
 
@@ -109,6 +109,31 @@ header img {
 .article-text{
   text-align: left;
   font-size: 22px;
+}
+
+.table-info, caption, th, tr, td{
+  color:rgb(255, 255, 255);
+  border: 1px white solid;
+  caption-side: top;
+  text-align: center;
+}
+
+.table-info{
+  width: 45%;
+  height: 50%;
+  margin-top: 100px;
+}
+
+caption{
+  background-color: rgba(211, 211, 211, 0.783);
+}
+
+th{
+  width: 20%;
+}
+
+td{
+  background-color: rgba(211, 211, 211, 0.691);
 }
 
 .aside{
