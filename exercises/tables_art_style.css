@@ -1,0 +1,38 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(225, 225, 225);
+}
+table {
+	border: none;
+  margin: 20px 60px;
+  border-spacing: 0;
+}
+.addSpace {
+   border-spacing: 2px;
+}
+
+td {
+	width: 20px;
+	height: 20px;
+}
+.red {
+	background-color: #f00;
+}
+.brown {
+	background-color: #83401f;
+}
+.yellow {
+	background-color: #ff0;
+}
+.transparent {
+	background-color: transparent;
+}
+.pink {
+	background-color: #ffbc77;
+}
+.blue {
+	background-color: #06f;
+}
+.black {
+	background-color: #000;
+}
