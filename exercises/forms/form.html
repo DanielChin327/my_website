@@ -8,18 +8,23 @@
 </head>
 <body>
 <div class="container">
-  <form action="get" method="imaginary.py">
+
+  <form action="post" method="imaginary.py">
+    <fieldset>
+      <legend>This is a legend</legend>
 
     <label for="username">Username:</label>
     <input type="text" name="username" id="username" placeholder="username" size="30" maxlength="10"/>
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" placeholder="password" size="30" maxlength="10"/>
+    <input type="submit" value="Submit"/>
+    <label for="object">Enter you message: </label>
+    <textarea name="message" id="message" rows="10" cols="50">
+        this is the default value
+    </textarea>
 
-  <input type="submit" value="Submit"/>
-
-
-
+    </fieldset>
   </form>
-
-
 
 </div>
 </body>

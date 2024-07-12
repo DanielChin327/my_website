@@ -13,3 +13,7 @@
 :required{
   background-color:red;
 }
+
+textarea{
+  resize:none;
+}

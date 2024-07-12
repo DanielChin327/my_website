@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+  background-color:gray;
+
+}
+
+header {
+  background-color: rgba(132, 201, 210, 0.788);
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  height: 140px;
+}
+
+header img {
+  width: 100px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 50px;
+  padding: 50px;
+  list-style: none;
+}
+
+.navbar li {
+  padding: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover {
+  background-color: gray;
+}
+
+.navbar a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+
+.blog-form{
+  font-size:1.2rem;
+  width: 50%;
+  color:white;
+  margin:20px;
+  padding: 15px;
+  margin: 50px auto;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+
+}
+
+.blog-top-form{
+  width:80%;
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  border: 1px white solid;
+  padding-left:20px;
+  padding: 30px
+}
+
+.blog-bot-form{
+  display:flex;
+  justify-content: flex-start;
+  flex-direction:column;
+  align-items:center;
+  flex-wrap:wrap;
+  margin: 5px;
+  padding-left: 150px;
+  padding-right: 150px;
+  border: 1px white solid;
+}
+
+form div{
+  padding:14px;
+}
